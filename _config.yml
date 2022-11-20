@@ -1,0 +1,39 @@
+# Site Settings
+title: Guia de Operaciones
+email: me@foobar.inc
+description: >- # this means to ignore newlines until "baseurl:"
+  Guía de Operaciones.
+destination: web
+
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+#theme: just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+timezone: America/Mexico_City
+lang: es-MX
+encoding: utf-8
+
+# Enable or disable the site search
+search_enabled: true
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
